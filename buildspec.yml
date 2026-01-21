@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "Build started"
+      - ls -la
+      - echo "Printing cloud.txt"
+      - cat cloud.txt
+artifacts:
+  files:
+    - '**/*'
